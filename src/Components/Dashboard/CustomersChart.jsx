@@ -39,8 +39,9 @@ const CustomersChart = () => {
 
   return (
     <ChartCard title="Customers" menu={menu}>
-      <p className="text-sm text-gray-500 mb-4">Customers that buy our products</p>
-      <div className="h-[200px]">
+      <p className="text-xs text-gray-500 mb-2">Customers that buy our products</p>
+      <hr />
+      <div className="h-[200px] mt-4">
         <Doughnut
           data={customersData}
           options={{

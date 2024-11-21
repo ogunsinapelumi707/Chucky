@@ -39,8 +39,9 @@ const RevenueChart = () => {
 
   return (
     <ChartCard title="Revenue" menu={menu}>
-      <h3 className="text-3xl font-bold mb-4">$112,340</h3>
-      <div className="h-[250px]">
+      <hr />
+      <h3 className="text-3xl font-bold mt-4">$112,340</h3>
+      <div className="h-[250px] mt-4">
         <Bar data={revenueData} options={{ responsive: true, maintainAspectRatio: false }} />
       </div>
     </ChartCard>
