@@ -6,7 +6,7 @@ import profile4 from "../assets/profile4.jpg"
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="flex flex-wrap items-center justify-between bg-white shadow px-4 py-4">
+    <header className="flex flex-wrap items-center justify-between bg-white shadow pl-16 md:pl-4 px-4 py-4">
       <div>
         <h1 className="text-lg font-bold">Hi, Taylor!</h1>
         <p className="text-sm text-gray-500">Let's check your store today</p>
