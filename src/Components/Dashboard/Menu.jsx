@@ -40,7 +40,7 @@ const Menu = () => {
                 {category}
                 {/* Active underline */}
                 {selectedCategory === category && (
-                  <span className="absolute bottom-[-6px] left-0 w-full h-[2px] bg-[#6C5DD3]" />
+                  <span className="absolute bottom-[-15px] left-0 w-full h-[2px] bg-[#6C5DD3]" />
                 )}
               </button>
             ))}
