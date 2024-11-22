@@ -9,7 +9,7 @@ import {
   FaBars,
   FaAngleRight,
 } from "react-icons/fa";
-
+import { HiOutlineChartSquareBar } from "react-icons/hi";
 import logo from "../assets/logo.png";
 
 const Sidebar = () => {
@@ -146,7 +146,7 @@ const Sidebar = () => {
                   }`
                 }
               >
-                <FaChartBar className="mr-4" /> Analytics
+                <HiOutlineChartSquareBar className="mr-4" /> Analytics
               </NavLink>
             </li>
 
