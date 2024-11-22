@@ -9,6 +9,7 @@ import {
   FaBars,
   FaAngleRight,
 } from "react-icons/fa";
+
 import logo from "../assets/logo.png";
 
 const Sidebar = () => {

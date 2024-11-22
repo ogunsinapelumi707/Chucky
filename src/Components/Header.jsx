@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import { FaSearch, FaBell, FaEnvelope, FaUserCircle } from "react-icons/fa";
+import { FaRegEnvelope, FaRegBell  } from "react-icons/fa6";
 
 import profile4 from "../assets/profile4.jpg"
 
@@ -27,7 +28,7 @@ const Header = () => {
           </div>
           {/* Email Icon with Badge */}
           <div className="relative">
-            <FaEnvelope className="text-gray-500 text-xl cursor-pointer" />
+            <FaRegEnvelope className="text-gray-500 text-xl cursor-pointer" />
             <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-semibold w-4 h-4 flex items-center justify-center rounded-full">
               1
             </span>
@@ -35,7 +36,7 @@ const Header = () => {
 
           {/* Bell Icon with Badge */}
           <div className="relative">
-            <FaBell className="text-gray-500 text-xl cursor-pointer" />
+            <FaRegBell  className="text-gray-500 text-xl cursor-pointer" />
             <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs font-semibold w-4 h-4 flex items-center justify-center rounded-full">
               2
             </span>
